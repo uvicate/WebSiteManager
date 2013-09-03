@@ -1,0 +1,5 @@
+{
+	"require": {
+		"cabinet/dbal": "dev-master"
+	}
+}

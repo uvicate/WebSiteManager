@@ -12,3 +12,7 @@ Thumbs.db
 # Sublime Plugins #
 ###################
 sftp-config.json
+
+# Composer #
+############
+vendor/*
