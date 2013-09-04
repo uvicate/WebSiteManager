@@ -1,4 +1,8 @@
 <content>
 	<dom>
+		<login-title>Iniciar sesión</login-title>
+		<email>Correo</email>
+		<password>Contraseña</password>
+		<button>Iniciar sesión</button>
 	</dom>
 </content>
