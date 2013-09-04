@@ -1,5 +1,5 @@
 <?php
-$r = __DIR__.'/../';
+$r = __DIR__.'/../../';
 require_once ($r.'config.php');
 
 class Verify {
@@ -18,8 +18,8 @@ class Verify {
 	}
 
 	private function initializeDB(){
-		global $wbsm_connection;
-		$this->db = $wbsm_connection;
+		global $wbsm;
+		$this->db = $wbsm['connection'];
 	}
 
 	public function validate(){
