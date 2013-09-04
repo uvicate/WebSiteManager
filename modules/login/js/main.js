@@ -33,7 +33,9 @@
 
 	Module.prototype.login = function() {
 		var data = this.gatherData();
-		this.a.current.getServer('login.php', data, function(r){});
+		this.a.current.getServer('login.php', data, function(r){
+			window.location = r.redirect;
+		});
 	};
 
 	var m = new Module();
