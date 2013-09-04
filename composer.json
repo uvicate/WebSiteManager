@@ -1,5 +1,7 @@
 {
 	"require": {
-		"cabinet/dbal": "dev-master"
+		"cabinet/dbal": "dev-master",
+		"twitter/bootstrap": "dev-master",
+		"uvicate/webapp": "dev-master"
 	}
 }
